@@ -1,0 +1,10 @@
+---
+fixtures:
+  repositories:
+    stdlib:
+      repo: "git://github.com/simp/puppetlabs-stdlib"
+      branch: "simp-master"
+    simplib: "git://github.com/simp/pupmod-simp-simplib.git"
+    simp: "git://github.com/simp/pupmod-simp-simp.git"
+  symlinks:
+    nifi: "#{source_dir}"

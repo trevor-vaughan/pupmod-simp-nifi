@@ -1,0 +1,11 @@
+--- 
+  !ruby/sym backends: 
+    - rspec
+    - yaml
+  !ruby/sym yaml: 
+    !ruby/sym datadir: /home/trevor.vaughan/Work/SIMP/5.1.X/src/puppet/modules/nifi/spec/fixtures/hieradata
+  !ruby/sym hierarchy: 
+    - "%{custom_hiera}"
+    - "%{spec_title}"
+    - "%{module_name}"
+    - default
