@@ -3,7 +3,7 @@ class nifi::service {
     source => '/opt/nifi/bin/nifi.sh',
     owner  => 'root',
     group  => 'root',
-    mode   => '755'
+    mode   => '0755'
   }
 
   service { 'nifi':
